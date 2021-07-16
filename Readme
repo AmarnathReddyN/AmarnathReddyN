@@ -1,6 +1,6 @@
-README
+Create folder and within folder create README
 echo "# AmarnathReddyN" >> README.md
-git init
+git init   => Intilaise empty directory repo with .git folder which contains configs remote origin,hooks,HEAD which points or ref heads to branch,objects and logs etc)
 git add README.md
 git commit -m "first commit"
 git branch -M main
@@ -11,3 +11,5 @@ or push an existing repository from the command line
 git remote add origin https://github.com/AmarnathReddyN/AmarnathReddyN.git
 git branch -M main
 git push -u origin main
+
+Create Pull request for merging changes to remote repo
